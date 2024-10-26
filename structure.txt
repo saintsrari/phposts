@@ -1,0 +1,10 @@
+EXECUTE THIS TO CREATE THE DATABSE STRUCTURE
+-----------------------------------------------
+
+CREATE TABLE `table_name` (
+  `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  `title` varchar(30) NOT NULL,
+  `username` varchar(30) NOT NULL,
+  `content` varchar(100) NOT NULL,
+  `created_at` timestamp NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
